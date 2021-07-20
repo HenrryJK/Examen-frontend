@@ -10,13 +10,17 @@ import { ArchivosComponent } from './components/archivos/archivos.component';
 import { CorreosComponent } from './components/correos/correos/correos.component';
 import { PersonaComponent } from './components/persona/persona/persona.component';
 import { UsuarioComponent } from './components/usuario/usuario.component';
+import { LoginComponent } from './login/login/login.component';
+import { NavbarComponent } from './navbar/navbar/navbar.component';
 @NgModule({
   declarations: [
     AppComponent,
     ArchivosComponent,
     CorreosComponent,
     PersonaComponent,
-    UsuarioComponent
+    UsuarioComponent,
+    LoginComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
