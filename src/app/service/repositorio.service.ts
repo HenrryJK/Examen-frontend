@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { Persona } from '../models/persona';
+import { Persona } from '../models/Persona';
 import { User } from '../models/user';
 import { Correo } from '../models/correo';
 import { Archivo } from '../models/archivo';

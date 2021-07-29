@@ -3,7 +3,7 @@ import { HttpInterceptor } from '@angular/common/http';
 @Injectable({
   providedIn: 'root'
 })
-export class TokenInterceptorService {
+export class TokenInterceptorService implements HttpInterceptor {
 
   intercept( req:any, next:any){
     const token = localStorage.getItem('token');

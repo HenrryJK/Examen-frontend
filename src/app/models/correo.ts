@@ -1,5 +1,5 @@
 export class Correo{
-  destinario?:string="";
+  destinatario?:string="";
   titulo?:string="";
   mensaje?:string="";
   fecha?:Date =new Date();
@@ -10,7 +10,7 @@ export class Correo{
 
 export class CorreoF{
   idcorreo?:number
-  destinario?:string="";
+  destinatario?:string="";
   titulo?:string="";
   mensaje?:string="";
   fecha?:Date =new Date();
